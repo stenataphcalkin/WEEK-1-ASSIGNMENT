@@ -8,6 +8,8 @@ smooth scroll added
 Social media icons, with hyper links
 MUSIC - Attempted, was unable to get to get autoplay running in JS. https://www.w3schools.com/jsref/prop_audio_autoplay.asp
 
+Was not able to get img to stay static whilst resizing the window, possibly reserved for background images (tagged as such) only.
+
 Resources used:
 https://www.w3schools.com/css/css3_colors.asp
 https://www.w3schools.com/css/css_image_transparency.asp
