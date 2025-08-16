@@ -1,30 +1,66 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
 * {
   font-family: "Courier New", Courier, monospace;
-}
-
-.navigationHeader {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  align-items: center;
-  padding: 10px;
-  background-color: tan;
-  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 h1 {
-  color: white;
+  font-size: 2em;
+}
+
+header {
+}
+
+.navigationHeader {
+  background-color: tan;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
 }
 
 footer {
-  background-color: aqua;
+  background-color: tan;
 }
 
-.banner-capybara {
+.bannerCapybara {
+  background-image: url(Capybara1.jpg);
+  background-color: white;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.banner-about-us {
+.banner {
+  padding: 20px;
+  background-color: wheat;
 }
 
-.banner-book {
+.bannerOverlays {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+.bannerH1 {
+  padding: 1em;
+}
+
+.bannerButton {
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+}
+
+.bannerAbout-us {
+}
+
+.bannerBook {
 }
