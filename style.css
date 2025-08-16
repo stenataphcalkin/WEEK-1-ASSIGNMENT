@@ -1,20 +1,23 @@
-nav {
-  background-color: aqua;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
 
-header {
-  background-color: indianred;
+.navigationHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: center;
+  padding: 10px;
+  background-color: tan;
+  justify-content: space-between;
 }
 
 h1 {
-  color: red;
+  color: white;
 }
 
 footer {
   background-color: aqua;
-}
-
-.nagivation-footer {
 }
 
 .banner-capybara {
