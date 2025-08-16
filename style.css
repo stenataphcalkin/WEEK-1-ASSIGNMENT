@@ -1,3 +1,27 @@
-* {
-  font-family: "Courier New", Courier, monospace;
+nav {
+  background-color: aqua;
+}
+
+header {
+  background-color: indianred;
+}
+
+h1 {
+  color: red;
+}
+
+footer {
+  background-color: aqua;
+}
+
+.nagivation-footer {
+}
+
+.banner-capybara {
+}
+
+.banner-about-us {
+}
+
+.banner-book {
 }
